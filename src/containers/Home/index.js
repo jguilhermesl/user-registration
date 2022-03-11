@@ -31,6 +31,7 @@ const Home = () => {
     })
 
     setUsers([... users, newUser])
+    
     setMessageSuccess(!messageSuccess)
     setTimeout(() => { 
       setMessageSuccess(false)
